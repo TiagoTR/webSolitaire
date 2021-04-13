@@ -1,0 +1,110 @@
+#intro-page {
+    background: linear-gradient(180deg, #2B6E94 51.18%, rgba(201, 0, 0, 0.77) 100%);
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro-page .card-intro {
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 80%;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro-page .card-intro .button-around {
+    width: 60%;
+    height: 50px;
+    border-radius: 50px;
+    background: #021723;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#intro-page .card-intro .button-around + .button-around {
+    margin-top: 50px;
+}
+
+#intro-page .card-intro .button-around button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 50px;
+    background: #348ABA;
+    
+    margin-top: -15px;
+    cursor: pointer;
+
+    font-family: Pirata One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #FFFFFF;
+    outline: none;
+
+}
+
+#intro-page .card-intro .button-around .link {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    
+}
+
+#intro-page .card-intro button {
+    width: 60%;
+    height: 40px;
+    
+    border: none;
+    background: transparent;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: nomal;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #60696B;
+    cursor: pointer;
+
+    margin-top: 30px;
+}
+
+
+
+@media (min-width: 768px) {
+    #intro-page .card-intro .button-around {
+        width: 50%;
+        height: 65px;
+    }
+    
+    #intro-page .card-intro .button-around + .button-around {
+        margin-top: 50px;
+    }
+    
+    #intro-page .card-intro .button-around button {
+        margin-top: -15px;
+        font-size: 40px;
+    
+    }
+    
+    #intro-page .card-intro button {
+        width: 50%;
+        height: 50px;
+    }
+    
+}
